@@ -1,0 +1,121 @@
+*
+{
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: whitesmoke;
+    height:100%;
+
+
+}
+header{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    color: whitesmoke;
+    align-items: center;
+    padding: 50px;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+h1{
+    font-weight: bold;
+}
+nav{
+    width:100%;
+}
+nav ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    align-items:center;
+}
+.main{
+
+    padding: 50px;
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ds{
+    border:2px  dimgrey;
+    border-radius: 6px;
+    background-color: white;
+    padding:30px;
+    box-shadow: 5px 5px 5px grey;
+}
+h2{
+    font-weight: bold;
+}
+.Shah{
+    display:flex;
+    padding: 10px;
+    width:100%;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px;
+}
+
+footer{
+    font-size: large;
+    padding: 50px;
+    background-color: black;
+    color: azure;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.last{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.footerpath{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    height:35%;
+    width:100%;
+    
+}
+textarea{
+    width:100%;
+    resize:vertical;
+}
+
+button{
+    font-size: large;
+    color:black;
+    font-weight: bolder;
+    height: 25%;
+    width:50%;
+    transition: 0.3s ease-out;
+}
+button:hover{
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+}
